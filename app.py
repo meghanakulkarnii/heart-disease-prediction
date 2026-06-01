@@ -152,7 +152,7 @@ if st.button("Predict"):
     disease_prob = probability[0][1] * 100
 
     st.write(f"Heart Disease Probability: {disease_prob:.2f}%")
-    st.progress(int(disease_prob))
+st.progress(int(disease_prob))
 st.markdown("---")
 
 st.write(
