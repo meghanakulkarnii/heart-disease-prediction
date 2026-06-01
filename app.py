@@ -22,7 +22,14 @@ sex = st.selectbox(
 
 trestbps = st.number_input("Resting Blood Pressure")
 
-chol = st.number_input("Cholesterol")
+chol = st.number_input(
+    "Cholesterol",
+    min_value=0,
+    max_value=600,
+    value=200,
+    step=1,
+    format="%d"
+)
 
 fbs = st.selectbox(
     "Fasting Blood Sugar > 120 mg/dl",
