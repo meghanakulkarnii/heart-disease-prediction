@@ -1,13 +1,13 @@
-# ❤️ Heart Disease Prediction System
+# Heart Disease Prediction System
 
-## 📌 Overview
+## Overview
 This project is a Machine Learning based web application that predicts the likelihood of heart disease using patient health parameters.
 
 The application was built using Python, Scikit-learn, and Streamlit, and deployed publicly using Streamlit Community Cloud.
 
 ---
 
-## 🚀 Features
+## Features
 - Predicts heart disease risk in real-time
 - User-friendly Streamlit interface
 - Displays prediction probability
@@ -16,7 +16,7 @@ The application was built using Python, Scikit-learn, and Streamlit, and deploye
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 - Python
 - Pandas
 - NumPy
@@ -26,7 +26,7 @@ The application was built using Python, Scikit-learn, and Streamlit, and deploye
 
 ---
 
-## 📊 Machine Learning Workflow
+## Machine Learning Workflow
 1. Data Preprocessing
 2. Exploratory Data Analysis (EDA)
 3. Feature Engineering
@@ -38,20 +38,20 @@ The application was built using Python, Scikit-learn, and Streamlit, and deploye
 
 ---
 
-## 📈 Model Performance
+## Model Performance
 - Accuracy: 82.39%
 - ROC-AUC Score: 0.90
 
 ---
 
-## 🌐 Deployment
+## Deployment
 The application is deployed publicly using:
 - GitHub
 - Streamlit Community Cloud
 
 ---
 
-## ▶️ How to Run Locally
+## How to Run Locally
 
 ```bash
 streamlit run app.py
