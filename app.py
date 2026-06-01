@@ -13,7 +13,14 @@ st.title("💖 Heart Disease Prediction App")
 st.subheader("Machine Learning Based Heart Disease Prediction")
 st.write("Enter patient details below:")
 
-age = st.number_input("Age", 1, 100)
+age = st.number_input(
+    "Age",
+    min_value=1,
+    max_value=100,
+    value=45,
+    step=1,
+    format="%d"
+)
 
 sex = st.selectbox(
     "Sex",
@@ -21,6 +28,13 @@ sex = st.selectbox(
 )
 
 trestbps = st.number_input("Resting Blood Pressure")
+trestbps = st.number_input(
+    "Resting blood pressure",
+    min_value=0,
+    max_value=300,
+    value=120,
+    step=1,
+    format="%d"
 
 chol = st.number_input(
     "Cholesterol",
@@ -36,8 +50,14 @@ fbs = st.selectbox(
     [0, 1]
 )
 
-thalch = st.number_input("Maximum Heart Rate")
-
+thalch = st.number_input(
+    "Maximum Heart Rate",
+    min_value=0,
+    max_value=600,
+    value=150,
+    step=1,
+    format="%d"
+)
 exang = st.selectbox(
     "Exercise Induced Angina",
     [0, 1]
