@@ -35,7 +35,7 @@ trestbps = st.number_input(
     value=120,
     step=1,
     format="%d"
-
+)
 chol = st.number_input(
     "Cholesterol",
     min_value=0,
