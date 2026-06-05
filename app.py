@@ -27,7 +27,6 @@ sex = st.selectbox(
     ["Female", "Male"]
 )
 
-trestbps = st.number_input("Resting Blood Pressure")
 trestbps = st.number_input(
     "Resting blood pressure",
     min_value=0,
